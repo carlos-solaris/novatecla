@@ -1,0 +1,15 @@
+{
+  "name": "novatecla",
+  "version": "1.0.0",
+  "description": "Este projeto é um clone do Tabnews, criado para fins educacionais.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev"
+  },
+  "author": "solaris",
+  "license": "MIT",
+  "dependencies": {
+    "next": "^13.1.6",
+    "react": "^18.2.0"
+  }
+}
