@@ -4,12 +4,17 @@
   "description": "Este projeto é um clone do Tabnews, criado para fins educacionais.",
   "main": "index.js",
   "scripts": {
-    "dev": "next dev"
+    "dev": "next dev",
+    "lint:check": "prettier --check .",
+    "lint:fix": "prettier -w ."
   },
   "author": "solaris",
   "license": "MIT",
   "dependencies": {
     "next": "^13.1.6",
     "react": "^18.2.0"
+  },
+  "devDependencies": {
+    "prettier": "^3.3.2"
   }
 }
