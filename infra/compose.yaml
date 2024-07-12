@@ -5,6 +5,6 @@ services:
   db:
     image: postgres
     env_file:
-      - ../.env
+      - ../.env.development
     ports:
       - 5432:5432
